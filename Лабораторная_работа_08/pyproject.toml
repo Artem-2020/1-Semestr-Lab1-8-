@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lab08-variant1"
+version = "0.1.0"
+description = "Лабораторная работа №8, вариант 1"
+authors = ["Student <student@example.com>"]
+packages = [{ include = "lab08_app", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
